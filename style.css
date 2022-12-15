@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 2rem 8rem;
+}
+header{
+    background-image: url(backgrnd.svg);
+    display: flex;
+    justify-content: space-between;
+}
+.banner_right{
+    bottom: 50rem;
+}
+.banner_content{
+    color: white;
+    /* justify-content: center; */
+    text-align: center;
+    padding-top: 8rem;
+}
+.header_title{
+    font-size: 3rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px)
+{
+.banner_right{
+    display: none; 
+}
+.banner_left{
+    display: none;
+}
+header{
+    background-image: url(backgrnd.svg);
+}
+.banner_content{
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 auto;
+}
+.header_title{
+    font-size: 2rem;
+}
+}
