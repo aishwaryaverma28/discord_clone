@@ -98,9 +98,29 @@ input{
     border-radius: 8px;
 background-color: lightgrey;
 }
-
-
-
+.foot_section{
+  background: linear-gradient(rgb(41, 41, 213),rgb(138, 138, 242));
+  color: white;
+  text-align: center;
+}
+.foot_section_matter{
+    /* border: 2px solid red; */
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.foot_section_button{
+    padding: 1rem;
+    font-size: large;
+    font-weight: 750;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    border-radius: 2rem;
+    border: none;
+}
+.foot_section_button:hover{
+    cursor: pointer;
+    background-color: rgb(34, 31, 31);
+}
 
 @media screen and (max-width: 1000px)
 {
@@ -130,5 +150,9 @@ header{
 }
 .section_side_bar{
     min-width: 100%;
+}
+.foot_section{
+    margin: 0 auto;
+   min-width: 100%;
 }
 }
