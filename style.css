@@ -176,8 +176,13 @@ header{
 .aside_side_bar{
     display: none;
 }
+.search_image{
+    display: none;
+}
 .section_side_bar{
     min-width: 100%;
+    /* overflow: auto; */
+    margin: 0 auto;
 }
 .foot_section{
     margin: 0 auto;
@@ -185,5 +190,9 @@ header{
 }
 .foot_section2{
     flex-wrap: wrap;
+}
+.footer_image{
+    width: 100%;
+    margin: 0 auto;
 }
 }
