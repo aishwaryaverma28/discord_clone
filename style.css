@@ -173,6 +173,10 @@ header{
 .search_section{
     margin: 0 auto;
 }
+.section_side_bar{
+    min-width: 100%;
+    margin: 0 auto;
+}
 .aside_side_bar{
     display: none;
 }
@@ -191,8 +195,17 @@ header{
 .foot_section2{
     flex-wrap: wrap;
 }
+.foot_setion2_textContainer{
+    margin: 0 auto;
+    width: 100%;
+}
 .footer_image{
     width: 100%;
     margin: 0 auto;
+}
+.foot_section_button2{
+    width: 100%;
+   justify-content: center;
+    /* padding: auto; */
 }
 }
