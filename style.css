@@ -98,7 +98,7 @@ input{
     border-radius: 8px;
 background-color: lightgrey;
 }
-.foot_section{
+.foot_section1{
   background: linear-gradient(rgb(41, 41, 213),rgb(138, 138, 242));
   color: white;
   text-align: center;
@@ -117,9 +117,37 @@ background-color: lightgrey;
     border-radius: 2rem;
     border: none;
 }
-.foot_section_button:hover{
+.foot_section_button,.foot_section_button2:hover{
     cursor: pointer;
     background-color: rgb(34, 31, 31);
+}
+.foot_setion2_textContainer{
+    /* border: 2px solid black; */
+    justify-content: center;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.foot_setion2_textContainer h1{
+    font-size: 2rem;
+    text-align: left;
+}
+.foot_setion2_textContainer p{
+    font-size: 1.3rem;
+    text-align: left;
+}
+.foot_section_button2{
+    padding: 1rem 7rem;
+    font-size: large;
+    font-weight: 750;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    border-radius: 2rem;
+    border: none;
+}
+.footer_image{
+    /* width: 100%; */
+    max-width: 678px;
+    max-height: 440px;
 }
 
 @media screen and (max-width: 1000px)
@@ -154,5 +182,8 @@ header{
 .foot_section{
     margin: 0 auto;
    min-width: 100%;
+}
+.foot_section2{
+    flex-wrap: wrap;
 }
 }
